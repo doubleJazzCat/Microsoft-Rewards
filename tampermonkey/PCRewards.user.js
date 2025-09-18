@@ -203,7 +203,7 @@ function exec() {
         // 无论哪种模式，任务完成了就停止后续操作
         return;
     }
-    
+
     // 根据计数器的值选择搜索引擎
     if (currentSearchCount <= max_rewards / 2) {
         let tt = document.getElementsByTagName("title")[0];
